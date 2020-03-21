@@ -1,0 +1,240 @@
+:root {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+  background-color: rgba(250,250,250,1);
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+    height: 100%;
+    display : flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+
+.instagram {
+    background-color: rgba(250,250,250,1);
+    margin: 100px auto 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+    flex-shrink: 0;
+    align-items: stretch;
+    padding: 0;
+    position: relative;
+    width: 950px;
+    height: 675px;
+    font-family: inherit;
+    box-sizing: border-box;
+
+    .lijevo {
+        background-image: url(../img/instagram_telefon.png);
+        background-repeat: no-repeat;
+        background-size: 454px 618px;
+        align-self: center;
+        background-position: 0 0;
+        flex-basis: 454px;
+        height: 618px;
+ 
+    }
+
+    .desno {
+        display: flexbox;
+        flex-direction: column;
+        margin-top: 50px;
+        max-width: 400px;
+        width: 100%;
+        box-sizing: border-box;
+      
+
+       .login-forma {
+        height: auto;
+        background-color: #fff;
+        border: 1px solid rgba(219,219,219,1);
+        border-radius: 1px;
+        padding: 10px 0;
+        font-size: 15px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+
+        .logo {
+            width: 200px;
+            height: 65px;
+            display: block;
+            margin: 22px auto 12px auto;
+        }
+
+        input {
+            display: block;
+            width: 80%;
+            border: 1px solid rgba(219,219,219,1);
+            border-radius: 3px;
+            background-color: rgba(250,250,250,1);
+            font-size: 14px;
+            font-weight: 400;
+            box-sizing: border-box;
+            height: 36px;
+            padding: 9px 0 7px 8px;
+            margin: 9px 0 7px 0;
+            font-family: inherit;
+        }
+
+        .prijava {
+            background-color: rgba(56,151,240,.3);
+            color: rgba(255,255,255,1);
+            font-weight: 600;
+            border: 1px solid transparent;
+            border-radius: 4px;
+            cursor: pointer;
+            font-size: 14px;
+            line-height: 18px;
+            width: 80%;
+            height: 30px;
+            padding: 5px 9px;
+            margin: 8px 40px;
+        }
+
+        .crta {
+            display: flex;
+            text-transform: uppercase;
+            align-items: center;
+            font-family: inherit;
+            margin: 10px 0 18px 0;
+
+            p {
+                margin: 0 18px;
+            }
+            
+            .prije, .poslije {
+                height: 1px;
+                width: 109px;
+                background-color: rgba(219,219,219,1);
+            }
+        }
+
+        .facebook-prijava {
+            .prijavaFacebook {
+                display: flex;
+                    margin: 8px 0;
+                    color: #385185;
+                    border: 0;
+                    background-color: rgba(255,255,255,1);
+                    font-weight: 600;
+                    font-size: 14px;
+
+                    .fejsLogo {
+                        width: 16px;
+                        height: 16px;
+                        margin-right: 8px;
+                    }
+            }
+        }
+        
+        .lozinka {
+                text-decoration: none;
+                font-size: 13px;
+                line-height: 14px;
+                text-align: center;
+                color: #003569;
+                margin: 12px 0;
+                font-weight: 400;
+        }
+    }
+      
+        .registracija {
+        background-color: #fff;
+        border: 1px solid rgba(219,219,219,1);
+        border-radius: 1px;
+        padding: 10px 0;
+        font-size: 15px;
+      
+        p {
+            color: rgba(38,38,38,1);
+            font-size: 14px;
+            margin: 15px;
+            text-align: center;
+            font-weight: 300;
+            font-size: inherit;
+        
+            a{
+                text-decoration: none;
+                color: rgba(56,151,240,1);
+                font-weight: 600;
+            }
+        }
+    }
+
+       .download-aplikacije {
+           display: flex;
+           flex-direction: column;
+           align-items: center;
+           width: 350px;
+           height: 102px;
+
+           .trgovine {
+               display: flex;
+               justify-content: center;
+
+               .apple {
+                   width: 136px;
+                   height: 40px;
+               }
+
+               .google {
+                   width: 134.28;
+                   height: 40px;
+               }
+           }
+       }
+      
+    }
+}
+
+.footer {
+    padding: 0 20px;
+    height: 104px;
+    margin-top: auto;
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+       
+
+        .footer-navigation ul {
+            display: flex;
+            list-style: none;
+            display: flex;
+            margin-right: 16px;
+
+            li {
+                display: inline-block;
+            }
+
+            li a {
+                text-decoration: none;
+                text-transform: uppercase;
+                color: rgba(0,53,105,1);
+                font-weight: 600;
+                font-size: 14px;
+                margin-right: 16px;
+            }
+        }
+
+        .prava {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 14px;
+            color: #999;
+        }
+    }
+}

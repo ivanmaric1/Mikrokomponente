@@ -1,0 +1,291 @@
+:root {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #fafafa;
+  height: 100%;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  height: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  min-height: 100vh;
+  margin: 0;
+}
+
+.instagram {
+  background-color: #fafafa;
+  margin: 100px auto 0;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -ms-flex-negative: 0;
+      flex-shrink: 0;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+  padding: 0;
+  position: relative;
+  width: 950px;
+  height: 675px;
+  font-family: inherit;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.instagram .lijevo {
+  background-image: url(../img/instagram_telefon.png);
+  background-repeat: no-repeat;
+  background-size: 454px 618px;
+  -ms-flex-item-align: center;
+      -ms-grid-row-align: center;
+      align-self: center;
+  background-position: 0 0;
+  -ms-flex-preferred-size: 454px;
+      flex-basis: 454px;
+  height: 618px;
+}
+
+.instagram .desno {
+  display: flexbox;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin-top: 50px;
+  max-width: 400px;
+  width: 100%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.instagram .desno .login-forma {
+  height: auto;
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  padding: 10px 0;
+  font-size: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-bottom: 10px;
+}
+
+.instagram .desno .login-forma .logo {
+  width: 200px;
+  height: 65px;
+  display: block;
+  margin: 22px auto 12px auto;
+}
+
+.instagram .desno .login-forma input {
+  display: block;
+  width: 80%;
+  border: 1px solid #dbdbdb;
+  border-radius: 3px;
+  background-color: #fafafa;
+  font-size: 14px;
+  font-weight: 400;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  height: 36px;
+  padding: 9px 0 7px 8px;
+  margin: 9px 0 7px 0;
+  font-family: inherit;
+}
+
+.instagram .desno .login-forma .prijava {
+  background-color: rgba(56, 151, 240, 0.3);
+  color: white;
+  font-weight: 600;
+  border: 1px solid transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 14px;
+  line-height: 18px;
+  width: 80%;
+  height: 30px;
+  padding: 5px 9px;
+  margin: 8px 40px;
+}
+
+.instagram .desno .login-forma .crta {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  text-transform: uppercase;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  font-family: inherit;
+  margin: 10px 0 18px 0;
+}
+
+.instagram .desno .login-forma .crta p {
+  margin: 0 18px;
+}
+
+.instagram .desno .login-forma .crta .prije, .instagram .desno .login-forma .crta .poslije {
+  height: 1px;
+  width: 109px;
+  background-color: #dbdbdb;
+}
+
+.instagram .desno .login-forma .facebook-prijava .prijavaFacebook {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 8px 0;
+  color: #385185;
+  border: 0;
+  background-color: white;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.instagram .desno .login-forma .facebook-prijava .prijavaFacebook .fejsLogo {
+  width: 16px;
+  height: 16px;
+  margin-right: 8px;
+}
+
+.instagram .desno .login-forma .lozinka {
+  text-decoration: none;
+  font-size: 13px;
+  line-height: 14px;
+  text-align: center;
+  color: #003569;
+  margin: 12px 0;
+  font-weight: 400;
+}
+
+.instagram .desno .registracija {
+  background-color: #fff;
+  border: 1px solid #dbdbdb;
+  border-radius: 1px;
+  padding: 10px 0;
+  font-size: 15px;
+}
+
+.instagram .desno .registracija p {
+  color: #262626;
+  font-size: 14px;
+  margin: 15px;
+  text-align: center;
+  font-weight: 300;
+  font-size: inherit;
+}
+
+.instagram .desno .registracija p a {
+  text-decoration: none;
+  color: #3897f0;
+  font-weight: 600;
+}
+
+.instagram .desno .download-aplikacije {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 350px;
+  height: 102px;
+}
+
+.instagram .desno .download-aplikacije .trgovine {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.instagram .desno .download-aplikacije .trgovine .apple {
+  width: 136px;
+  height: 40px;
+}
+
+.instagram .desno .download-aplikacije .trgovine .google {
+  width: 134.28;
+  height: 40px;
+}
+
+.footer {
+  padding: 0 20px;
+  height: 104px;
+  margin-top: auto;
+}
+
+.footer .container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.footer .container .footer-navigation ul {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  list-style: none;
+  display: flex;
+  margin-right: 16px;
+}
+
+.footer .container .footer-navigation ul li {
+  display: inline-block;
+}
+
+.footer .container .footer-navigation ul li a {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #003569;
+  font-weight: 600;
+  font-size: 14px;
+  margin-right: 16px;
+}
+
+.footer .container .prava {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 14px;
+  color: #999;
+}
+/*# sourceMappingURL=main.css.map */
